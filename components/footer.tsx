@@ -156,7 +156,7 @@ export function Footer() {
 
         {/* Bottom */}
         <div
-          className="pt-8 text-center text-sm flex justify-around"
+          className="pt-8 text-center text-sm flex flex-col md:flex-row justify-around gap-6"
           style={{
             borderTop: "1px solid rgba(255, 255, 255, 0.08)",
             color: "var(--stone-500, #78716c)",
@@ -165,7 +165,7 @@ export function Footer() {
           <span>© {currentYear} Amberprint Studio. All rights reserved.</span>
           {/* Social Media Links */}
           <div
-            className="flex justify-center gap-5 mb-10"
+            className="flex justify-center gap-5"
             data-animate="fade-up"
             data-delay="8"
           >
