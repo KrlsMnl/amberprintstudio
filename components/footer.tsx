@@ -165,9 +165,7 @@ export function Footer() {
           <span>© {currentYear} Amberprint Studio. All rights reserved.</span>
           {/* Social Media Links */}
           <div
-            className="flex justify-center gap-5"
-            data-animate="fade-up"
-            data-delay="8"
+            className="flex justify-center gap-5 mb-10"
           >
             {[
               {
